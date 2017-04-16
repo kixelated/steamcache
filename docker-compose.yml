@@ -1,0 +1,25 @@
+version: "3"
+
+services:
+  http:
+    build: "http"
+    image: steamcache-http:latest
+    ports:
+      - "80:80/tcp"
+    volumes:
+      - "data:/data"
+
+  dns:
+    build: "dns"
+    image: steamcache-dns:latest
+    ports:
+      - "53:53/udp"
+
+  sni:
+    build: "sni"
+    image: steamcache-sni:latest
+    ports:
+      - "443:443/tcp"
+
+volumes:
+  data:

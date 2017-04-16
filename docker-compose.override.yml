@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+  http:
+    dns:
+      - "8.8.8.8"
+      - "8.8.4.4"
+
+  dns:
+    dns:
+      - "8.8.8.8"
+      - "8.8.4.4"
+    environment:
+      LANCACHE_IP: "10.0.0.3"
+
+  sni:
+    dns:
+      - "8.8.8.8"
+      - "8.8.4.4"
