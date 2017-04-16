@@ -1,9 +1,9 @@
 [submodule "http"]
 	path = http
-	url = git@github.com:kixelated/steamcache-http.git
+	url = https://github.com/kixelated/steamcache-http.git
 [submodule "dns"]
 	path = dns
-	url = git@github.com:kixelated/steamcache-dns.git
+	url = https://github.com/kixelated/steamcache-dns.git
 [submodule "sni"]
 	path = sni
-	url = git@github.com:kixelated/steamcache-sni.git
+	url = https://github.com/kixelated/steamcache-sni.git

@@ -22,7 +22,7 @@ Start by installing [docker](https://docs.docker.com/engine/installation/) and [
 
 Clone this repository and the submodules.
 
-    git clone --recursive git@github.com:kixelated/steamcache.git
+    git clone --recursive https://github.com/kixelated/steamcache.git
 
 Open up `docker-compose.override.yml`. You will need to change `LANCACHE_IP` from the default `10.0.0.3` to the host's IP address.
 
